@@ -1,0 +1,126 @@
+*{
+    margin:0;
+   padding:0;
+   box-sizing: border-box;
+   }
+
+   body {
+       background-color: #062863;
+       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+       font-size: 0.90rem; 
+
+       
+   }
+
+   .header {
+       margin-top: 30px;
+       margin-bottom: 20px;
+       
+   }
+
+   img {
+       margin-left: 580px;
+   }
+
+   .container {
+       background-color: white;
+       width: 450px;
+       height: max-content;
+       border-radius: 10px;
+       justify-content: center;
+       padding: 20px;
+       margin-left: 470px;
+       color: #4a5568;
+   }   
+
+   .text {
+       text-align: center;
+       
+   }
+
+
+   .container .text h3 {
+       color: #062863;
+   }
+
+
+  .input-box {
+      margin-top: 10px;
+      margin-bottom: 10px;
+  }
+
+  .input-box label {
+      margin-bottom: 5px;
+      font-size: small;
+      font-weight: bold;
+  }
+  .input-box input[type="text"] {
+      margin-top: 5px;
+      background-color: rgb(192, 210, 214);
+      border-radius: 5px;
+      border-style: none;
+      padding: 30px auto;
+      padding: 20px;
+      width: 100%;
+      height: 50px;
+  }
+
+  .input-box input[type="password"] {
+    margin-top: 5px;
+    background-color: rgb(192, 210, 214);
+    border-radius: 5px;
+    border-style: none;
+    padding: 30px auto;
+    padding: 20px;
+    width: 100%;
+    height: 50px;
+}
+.input-box input[type="tel"] {
+    margin-top: 5px;
+    background-color: rgb(192, 210, 214);
+    border-radius: 5px;
+    border-style: none;
+    padding: 30px auto;
+    padding: 20px;
+    width: 100%;
+    height: 50px;
+}
+.input-box input[type="email"] {
+    margin-top: 5px;
+    background-color: rgb(192, 210, 214);
+    border-radius: 5px;
+    border-style: none;
+    padding: 30px auto;
+    padding: 20px;
+    width: 100%;
+    height: 50px;
+}
+
+.input-box input[type="submit"] {
+    margin-top: 5px;
+    background-color: #062863;
+    color: white;
+    border-radius: 5px;
+    border-style: none;
+    padding: 30px auto;
+    padding: 20px;
+    width: 50%;
+    height: 50px;
+    margin-left: 110px;
+}
+
+select {
+    margin-top: 5px;
+    background-color: rgb(192, 210, 214);
+    border-radius: 5px;
+    border: none;
+    padding: 30px auto;
+    padding: 20px;
+    width: 100%;
+    height: 50px;
+}
+
+  .footer p {
+      margin-top: 5px;
+      text-align: center;
+  }
