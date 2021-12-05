@@ -4,6 +4,8 @@
    box-sizing: border-box;
    }
 
+   
+
    body {
        background-color: #062863;
        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -28,9 +30,9 @@
        height: max-content;
        border-radius: 10px;
        justify-content: center;
-       padding: 20px;
+       padding: 40px;
        margin-left: 470px;
-       color: #4a5568;
+      
    }   
 
    .text {
@@ -39,26 +41,29 @@
    }
 
 
-   .container .text h3 {
-       color: #062863;
+   .container .text h1{
+       color: #093786;
+    
    }
 
 
   .input-box {
       margin-top: 10px;
-      margin-bottom: 10px;
+      margin-bottom: 30px;
   }
 
   .input-box label {
       margin-bottom: 5px;
       font-size: small;
       font-weight: bold;
+      color: #4a5568;
   }
+
   .input-box input[type="text"] {
       margin-top: 5px;
       background-color: rgb(192, 210, 214);
       border-radius: 5px;
-      border-style: none;
+      border: none;
       padding: 30px auto;
       padding: 20px;
       width: 100%;
@@ -69,7 +74,7 @@
     margin-top: 5px;
     background-color: rgb(192, 210, 214);
     border-radius: 5px;
-    border-style: none;
+    border: none;
     padding: 30px auto;
     padding: 20px;
     width: 100%;
@@ -79,7 +84,7 @@
     margin-top: 5px;
     background-color: rgb(192, 210, 214);
     border-radius: 5px;
-    border-style: none;
+    border: none;
     padding: 30px auto;
     padding: 20px;
     width: 100%;
@@ -89,7 +94,7 @@
     margin-top: 5px;
     background-color: rgb(192, 210, 214);
     border-radius: 5px;
-    border-style: none;
+    border: none;
     padding: 30px auto;
     padding: 20px;
     width: 100%;
@@ -101,12 +106,13 @@
     background-color: #062863;
     color: white;
     border-radius: 5px;
-    border-style: none;
+    border: none;
     padding: 30px auto;
     padding: 20px;
     width: 50%;
     height: 50px;
-    margin-left: 110px;
+    margin-left: 90px;
+    font-weight: bold;
 }
 
 select {
@@ -118,9 +124,23 @@ select {
     padding: 20px;
     width: 100%;
     height: 50px;
+    
 }
 
   .footer p {
       margin-top: 5px;
       text-align: center;
+      color: white;
   }
+
+  @media only screen and (min-width: 900px) {
+    body {
+        background-image: url('../images/circle.png'),
+            url('../images/Inverted\ J.png'), url('../images/J.png'),
+            url('../images/angle\ bracket.png');
+        background-position: -1% -15%, 108% -1%, -5% 108%, 107% 105%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 200px 200px;
+    }
+}
